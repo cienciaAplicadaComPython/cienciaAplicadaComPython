@@ -10,8 +10,6 @@ DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
 
 @st.cache
 def load_data(nrows):
-         
-def load_data(nrows):
     data = pd.read_csv(DATA_URL, nrows=nrows)
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
