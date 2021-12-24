@@ -1,13 +1,13 @@
 import streamlit as st
-import pandas as pd
 
-df = pd.DataFrame({
-    'Primeira coluna': [1, 2, 3, 4],
-    'Segunda coluna': [10, 20, 30, 40]
-    })
+# Adiciona uma caixa de seleção ao menu lateral
+add_selectbox = st.sidebar.selectbox(
+    'Como você gostaria de ser contactado?',
+    ('E-mail', 'Telefone residencial', 'Telefone móvel')
+)
 
-option = st.selectbox(
-    'Qual número você mais gosta?',
-     df['Segunda coluna'])
-
-'Você selecionou: ', option
+# Adicione um controle deslizante ao menu lateral:
+add_slider = st.sidebar.slider(
+    'Escolha um intervalo de valores',
+    0.0, 100.0, (25.0, 75.0)
+)
