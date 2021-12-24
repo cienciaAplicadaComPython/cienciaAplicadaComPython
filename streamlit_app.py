@@ -1,13 +1,12 @@
 import streamlit as st
 
-# Adiciona uma caixa de seleção ao menu lateral
-add_selectbox = st.sidebar.selectbox(
-    'Como você gostaria de ser contactado?',
-    ('E-mail', 'Telefone residencial', 'Telefone móvel')
-)
+coluna_esquerda, coluna_direita = st.columns(2)
+# Você pode usar uma coluna como st.sidebar:
+coluna_esquerda.button('Pressione-me!')
 
-# Adicione um controle deslizante ao menu lateral:
-add_slider = st.sidebar.slider(
-    'Escolha um intervalo de valores',
-    0.0, 100.0, (25.0, 75.0)
-)
+# Ou até melhor, chame funções Streamlit dentro de uma bloco "with":
+with coluna_direita:
+    chosen = st.radio(
+        'Chapéu seletor',
+        ("Grifinória", "Corvinal", "Lufa-lufa", "Sonserina"))
+    st.write(f"Você está na casa {chosen}!")
