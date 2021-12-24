@@ -1,15 +1,14 @@
+"""
+# Meu primeiro app
+Uma primeira tentativa para escrever uma tabela
+"""
+
 import streamlit as st
-import matplotlib.pyplot as plt
+import pandas as pd
 
-x = st.sidebar.slider('x')
-st.sidebar.write(x, 'squared is', x * x)
+df = pd.DataFrame({
+  'first column': [1, 2, 3, 4],
+  'second column': [10, 20, 30, 40]
+})
 
-y = x**2
-
-fig, ax = plt.subplots(figsize = (10,5))
-ax.scatter(x, y, label = 'Valores')
-plt.xlabel('$X$')
-plt.ylabel('$Y$')
-plt.legend()
-
-st.pyplot(fig)
+df
