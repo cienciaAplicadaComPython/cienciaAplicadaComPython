@@ -8,6 +8,6 @@ df = pd.DataFrame({
 
 option = st.selectbox(
     'Qual número você mais gosta?',
-     df['Primeira coluna'])
+     df['Segunda coluna'])
 
 'Você selecionou: ', option
