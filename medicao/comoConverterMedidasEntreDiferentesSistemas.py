@@ -1,47 +1,3 @@
-<!DOCTYPE html>
-
-<!--
-    This represents an article.
-    Author: Jefferson David Santos e Silva
-    Email: j.davidss@hotmail.com
--->
-
-<html lang="pt-br">
-    <head> 
-        <meta charset=”UTF-8”>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" media = "screen and (max-width: 425px)" href="../styles/styles_devices_width_lesser_425.css">
-        <link rel="stylesheet" media = "screen and (min-width: 425px) and (max-width: 768px)" href="../styles/styles_devices_width_425_768.css">
-        <link rel="stylesheet" media = "screen and (min-width: 768px)" href="../styles/styles_devices_width_greater_768.css">
-        <title>Ciência Aplicada com Python</title>
-        <meta name="description" content="Artigos com respostas científicas para perguntas com inspiração no dia a dia e algoritmos em Python">
-        <meta name="keywords" content="ciência, algoritmo, mecânica, medição, Python">
-        <meta name="author" content="Jefferson David Santos e Silva">
-        <!--
-            The following a JavaScript display engine for mathematics that works in all browsers.
-            For more information, refer to https://www.mathjax.org/#gettingstarted
-        -->
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX", "output/HTML-CSS"], tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], displayMath: [ ['$$','$$'], ["\\[","\\]"] ], processEscapes: true }, "HTML-CSS": { availableFonts: ["TeX"] } });
-        </script>
-        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script> 
-    </head> 
-    
-    <body>
-        <div id = "menu_site_title"> 
-            <div id = "menu">
-                <a href="../index.html">Home</a>
-                <a href="../todos_list.html">Todos</a>
-                <a href="../medicao_list.html">Medição</a>
-                <a href="../mecanica_list.html">Mecânica</a>
-            </div>
-
-            <div id="site_title">
-                <h1>Ciência Aplicada com Python</h1> 
-            </div>
-        </div>
-        
         <article id="page_text">
             <header>
                 <h1>Como converter medidas entre sistemas diferentes?</h1> 
@@ -259,5 +215,3 @@
                 </p>
             </section>
         </article>  
-    </body>
-</html>
