@@ -32,9 +32,11 @@ elif topico == 'Medição':
             'Quanto tempo dura uma ultrapassagem?'
         ),
     )
-    """
-    # Em desenvolvimento
-    """
+    
+    if topicoDeMedicao == 'Quanto tempo dura uma ultrapassagem?':
+        """
+        # Em desenvolvimento
+        """
 
 elif topico == 'Mecânica':
          """
