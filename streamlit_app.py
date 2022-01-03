@@ -47,7 +47,7 @@ elif topico == 'Mecânica':
         ),
     )
     
-    if topicoDeMedicao == 'Como converter medidas?':
+    if topicoDeMecanica == 'Como converter medidas?':
         """
         # Em desenvolvimento
         """
