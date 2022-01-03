@@ -23,7 +23,7 @@ textoDoArtigo = """
   
   ## O Sistema internacional de unidades
   
-  Em 1971, na 14<sup>a</sup> Conferência Geral de Pesos e Medidas, sete grandezas foram selecionadas como fundamentais para constituir a base do SI:
+  Em $1971$, na $14^a$ Conferência Geral de Pesos e Medidas, sete grandezas foram selecionadas como fundamentais para constituir a base do SI:
   
   |Grandeza                 |Nome da Unidade    |Símbolo da Unidade   |
   |:--                      |:--:               |                  --:|
@@ -40,26 +40,26 @@ textoDoArtigo = """
   
   ## O sistema imperial de unidades
   
-  Este sistema foi primeiramente definido no ato britânico de 1824 de pesos e medidas e ele pode ser dividido em unidades de comprimento, área, volume e massa:
+  Este sistema foi primeiramente definido no ato britânico de $1824$ de pesos e medidas e ele pode ser dividido em unidades de comprimento, área, volume e massa:
   
   |Nome da Unidade  |Símbolo da Unidade   |Equivalência com o SI          |
   |:--              |:--:                 |                            --:|              
   |                 |*Comprimento*        |                               |
-  |Polegada         |in                   |0,0254 m                       |
-  |Pés              |ft                   |0,3048 m                       |
-  |Jardas           |yd                   |0,9144 m                       |
-  |Milha            |mi                   |1.609,344 m                    |
+  |Polegada         |in                   |$0,0254$ m                       |
+  |Pés              |ft                   |$0,3048$ m                       |
+  |Jardas           |yd                   |$0,9144$ m                       |
+  |Milha            |mi                   |$1.609,344$ m                    |
   |                 |*Área*               |                               |
-  |Acre             |mi                   |4.046,86 m$$^{2}$$         |
-  |Milha quadrada   |sq mi                |2.589.988,110336 m<sup>2</sup> |
+  |Acre             |mi                   |$4.046,86$ m$^{2}$         |
+  |Milha quadrada   |sq mi                |$2.589.988,110336$ m$^2$ |
   |                 |*Volume*             |                               |
-  |Onças            |oz                   |0,0000295735 m<sup>3</sup>     |
-  |Pinta            |pt                   |0,000473176 m<sup>3</sup>      |
-  |Galão            |gal                  |0,00378541 m<sup>3</sup>       |
+  |Onças            |oz                   |$0,0000295735$ m$^3$     |
+  |Pinta            |pt                   |$0,000473176 m$^3$      |
+  |Galão            |gal                  |$0,00378541 m$^3$       |
   |                 |*Massa*              |                               |
-  |Libras           |lb                   |0,4536 kg                      |
-  |Stones           |st                   |6,3503 kg                      |
-  |Tonelada         |ton                  |1.016,0469 kg                  |
+  |Libras           |lb                   |$0,4536$ kg                      |
+  |Stones           |st                   |$6,3503$ kg                      |
+  |Tonelada         |ton                  |$1.016,0469$ kg                  |
 
 
   ## O algoritmo
@@ -96,11 +96,11 @@ textoDoArtigo = """
 conclusaoDoArtigo = """
   Na prática, os valores das grandezas representados em diferentes unidades podem ser convertidos utilizando a seguinte fórmula
   
-  *u<sub>final</sub> = c . u<sub>original</sub>*,
+  $u_final = c \times u_original$,
   
-  na qual *u<sub>original</sub>* e *u<sub>final</sub>* são as medições da grandeza nas unidades original e final, respectivamente, e *c* representa o coeficiente de conversão entre as unidas original e final, nesta ordem.
+  na qual $u_original$ e $u_final$ são as medições da grandeza nas unidades original e final, respectivamente, e $c$ representa o coeficiente de conversão entre as unidas original e final, nesta ordem.
   
-  Como exemplo, para convertermos 3 m em pés devemos fazer *u<sub>pés</sub> \\approx 3.2808 \times 3 $\rightarrow$ u<sub>pés</sub> \\approx 9,8425* permitindo concluir que 3 m equivalem aproximadamente a 9,8425 pés.
+  Como exemplo, para convertermos $3$ m em pés devemos fazer $u_pés$ \approx 3.2808 \times 3 \impies u_pés \\approx 9,8425$ permitindo concluir que $3$ m equivalem aproximadamente a $9,8425$ pés.
   O uso do algoritmo implementado contribui para o cálculo quase instantâneo entre as conversões entre as unidades bastando informar o valor da medição e unidade original e a unidade final. O retrabalho de procurar os coeficientes de conversão sempre que deseja-se efetuar a conversão é evitado, uma vez que as tabelas utilizadas para a conversão permanecem salvas.
 
   """
