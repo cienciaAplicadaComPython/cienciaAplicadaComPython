@@ -83,6 +83,7 @@ textoDoArtigo = """
   ## Colete os dados em campo
   
   Para a criação das tabelas de conversão entre as unidades, pode-se consultar fontes externas contendo constantes de conversão já calculadas.
+  
   Caso deseje-se utilizar grandezas inventadas, um bom exercício é inspirar-se no Sistema Imperial de Unidades e utilizar as partes do corpo de um indivíduo ou de um objeto.
   Por exemplo, os braços, mãos e pernas de uma pessoa ou as pernas e assento de uma cadeira.
   
