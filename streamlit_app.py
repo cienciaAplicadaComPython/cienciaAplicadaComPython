@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
 
@@ -34,7 +35,8 @@ elif topico == 'Medição':
     )
     
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
-        st.write(ComoConverterMedidasEntreSistemasDiferentes, unsafe_allow_html = True)
+        htmlComoConverterMedidasEntreSistemasDiferentes = os.path.join('medicao', 'comoConverterMedidasEntreDiferentesSistemas.txt')
+        st.write(htmlComoConverterMedidasEntreSistemasDiferentes, unsafe_allow_html = True)
 
 elif topico == 'Mecânica':
     topicoDeMecanica = st.sidebar.radio(
