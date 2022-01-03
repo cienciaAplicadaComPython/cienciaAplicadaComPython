@@ -26,7 +26,7 @@ if topico == 'Introdução':
         
 elif topico == 'Medição':
     
-    topico = st.sidebar.radio(
+    topicoDeMedicao = st.sidebar.radio(
         'Escolha um tópico:',
         (
             'Introdução',
