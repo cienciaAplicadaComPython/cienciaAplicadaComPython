@@ -25,24 +25,32 @@ if topico == 'Introdução':
     """
         
 elif topico == 'Medição':
-    
     topicoDeMedicao = st.sidebar.radio(
-        'Escolha um tópico:',
+        'Escolha um tópico de medição:',
         (
-            "Quanto Tempo Dura uma Ultrapassagem?",
-            "Matemática"
+            'Quanto tempo dura uma ultrapassagem?',
+            ""
         ),
     )
     
-    if topicoDeMedicao == "Quanto":
+    if topicoDeMedicao == 'Quanto tempo dura uma ultrapassagem?':
         """
         # Em desenvolvimento
         """
 
 elif topico == 'Mecânica':
-         """
-         # Em desenvolvimento
-         """
+    topicoDeMecanica = st.sidebar.radio(
+        'Escolha um tópico de mecânica:',
+        (
+            'Como converter medidas?',
+            ""
+        ),
+    )
+    
+    if topicoDeMedicao == 'Como converter medidas?':
+        """
+        # Em desenvolvimento
+        """
 
 st.caption('**Desenvolvido por**: Jefferson Silva')
 st.caption('**E-mail**: j.davidss@hotmail.com')
