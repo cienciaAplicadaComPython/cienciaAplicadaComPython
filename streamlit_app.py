@@ -13,7 +13,7 @@ topico = st.sidebar.radio(
 
 if topico == 'Introdução':
          """
-         # Intrdoução
+         # Introdução
          
          Está aplicação WEB contém uma coleção de artigos com respostas baseadas na ciência à perguntas feitas livremente.
          Muitas delas são inspiradas em leituras, filmes, séries, documentários e viagens.
@@ -22,6 +22,16 @@ if topico == 'Introdução':
          Como objetivo, espera-se aumentar o interesse do leitor pela ciência, estimular a sua natureza investigativa e apoiar a integração entre a ciência e computação.
          
          *Obrigado por visitar **Ciência Aplicada com Python***
+         """
+        
+elif topico == 'Medição':
+         """
+         # Em desenvolvimento
+         """
+
+elif topico == 'Mecânica':
+         """
+         # Em desenvolvimento
          """
 
 st.caption('**Desenvolvido por**: Jefferson Silva')
