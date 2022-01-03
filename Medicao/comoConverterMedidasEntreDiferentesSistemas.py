@@ -62,7 +62,7 @@ textoDoArtigo = """
   |Tonelada         |ton                  |$1.016,0469$ kg                |
 
 
-  ## O algoritmo
+  ## O modelo do algoritmo
   
   Como base de um sistema com interfaceamento com o usuário, o algoritmo a ser utilizado deve requisitar os valores de cada um dos parâmetros de entrada.
   
