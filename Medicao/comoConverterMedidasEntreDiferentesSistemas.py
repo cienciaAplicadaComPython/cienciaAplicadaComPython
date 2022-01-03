@@ -101,7 +101,7 @@ conclusaoDoArtigo:
   
   na qual *u<sub>original</sub>* e *u<sub>final</sub>* são as medições da grandeza nas unidades original e final, respectivamente, e *c* representa o coeficiente de conversão entre as unidas original e final, nesta ordem.
   
-  Como exemplo, para convertermos 3 m em pés devemos fazer *u<sub>pés</sub> \\approx 3.2808 \\times 3 \\implies u<sub>pés</sub> \\approx 9,8425* permitindo concluir que 3 m equivalem aproximadamente a 9,8425 pés.
+  Como exemplo, para convertermos 3 m em pés devemos fazer *u<sub>pés</sub> \\approx 3.2808 \times 3 $\rightarrow$ u<sub>pés</sub> \\approx 9,8425* permitindo concluir que 3 m equivalem aproximadamente a 9,8425 pés.
   O uso do algoritmo implementado contribui para o cálculo quase instantâneo entre as conversões entre as unidades bastando informar o valor da medição e unidade original e a unidade final. O retrabalho de procurar os coeficientes de conversão sempre que deseja-se efetuar a conversão é evitado, uma vez que as tabelas utilizadas para a conversão permanecem salvas.
 
   """
