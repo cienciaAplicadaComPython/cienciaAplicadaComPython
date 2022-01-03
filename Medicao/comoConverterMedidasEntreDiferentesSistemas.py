@@ -1,5 +1,5 @@
 textoDoArtigo = """
-  #Como converter medidas entre sistemas diferentes?
+  # Como converter medidas entre sistemas diferentes?
   
   *Como converter as polegadas em metros ou vice-versa? O que a medida onças representa?
   Quais sistemas de medidas existem?
@@ -8,7 +8,7 @@ textoDoArtigo = """
   Tempo de leitura: 5 minutos
   ---------------------------
   
-  ##Introdução
+  ## Introdução
   Realizamos medições quando queremos caracterizar um objeto, uma pessoa ou um animal por meio da comparação com padrões conhecidos de comprimento, massa, volume e outros.
   Podemos ainda avaliar o desempenho de atividades com o uso de padrões de velocidade, potências e outros.
   
@@ -16,7 +16,7 @@ textoDoArtigo = """
   - Sistema Internacional de Unidades (SI)
   - Sistema Imperial de Unidades
   
-  ##O Sistema internacional de unidades
+  ## O Sistema internacional de unidades
   Em 1971, na 14<sup>a</sup> Conferência Geral de Pesos e Medidas, sete grandezas foram selecionadas como fundamentais para constituir a base do SI:
   
   |Grandeza                 |Nome da Unidade    |Símbolo da Unidade   |
