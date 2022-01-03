@@ -35,7 +35,8 @@ elif topico == 'Medição':
     )
     
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
-        st.markdown(textoDeComoConverterMedidasEntreDiferentesSistemas)
+        st.write(textoDeComoConverterMedidasEntreDiferentesSistemas)
+        st.write('')
 
 elif topico == 'Mecânica':
     topicoDeMecanica = st.sidebar.radio(
