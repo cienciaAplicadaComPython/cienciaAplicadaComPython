@@ -36,7 +36,7 @@ elif topico == 'Medição':
     
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
         htmlComoConverterMedidasEntreSistemasDiferentes = os.path.join('medicao', 'comoConverterMedidasEntreDiferentesSistemas.txt')
-        st.write(htmlComoConverterMedidasEntreSistemasDiferentes, unsafe_allow_html = True)
+        st.markdown(htmlComoConverterMedidasEntreSistemasDiferentes, unsafe_allow_html = True)
 
 elif topico == 'Mecânica':
     topicoDeMecanica = st.sidebar.radio(
