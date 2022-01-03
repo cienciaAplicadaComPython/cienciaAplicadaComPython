@@ -29,11 +29,11 @@ elif topico == 'Medição':
     topicoDeMedicao = st.sidebar.radio(
         'Escolha um tópico:',
         (
-            "Quanto tempo dura uma ultrapassagem?"
+            "Quanto"
         ),
     )
     
-    if topicoDeMedicao == "Quanto tempo dura uma ultrapassagem?":
+    if topicoDeMedicao == "Quanto":
         """
         # Em desenvolvimento
         """
