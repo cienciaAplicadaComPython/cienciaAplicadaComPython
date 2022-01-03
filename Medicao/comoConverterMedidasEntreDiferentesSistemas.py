@@ -70,6 +70,7 @@ textoDoArtigo = """
   - A unidade original;
   - A unidade final para qual deseja-se realizar a conversão;
   - A medição realizada na unidade original.
+  
   Com os valores dos parâmetros anteriores informados, a medição realizada para a unidade original deve ser convertida para a unidade final e retornada ao usuário.
   
   Para permitir que o usuário informe as unidades original e final e tenha o valor da medição convertido, a classe de tabelas de conversão é utilizada e caracterizada a seguir:
