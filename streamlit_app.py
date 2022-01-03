@@ -1,5 +1,6 @@
 import streamlit as st
 from Medicao.comoConverterMedidasEntreDiferentesSistemas import textoDoArtigo as textoDeComoConverterMedidasEntreDiferentesSistemas
+from Medicao.comoConverterMedidasEntreDiferentesSistemas import conclusaoDoArtigo as conclusaoDeComoConverterMedidasEntreDiferentesSistemas
 
 st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
 
@@ -37,6 +38,11 @@ elif topico == 'Medição':
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
         textoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
+        with st.echo():
+            st.write('O código do algoritmo')
+        conclusaoDeComoConverterMedidasEntreDiferentesSistemas
+        st.write('')
+        
 
 elif topico == 'Mecânica':
     topicoDeMecanica = st.sidebar.radio(
