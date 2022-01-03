@@ -78,4 +78,30 @@ textoDoArtigo = """
   
   Como adicional, o usuário deve ser instruído corretamente sobre os valores a serem informados e poder reexecutar o algoritmo o número de vezes desejado em sequência, informando quando não é mais necessário.
 
+  
+  ## Colete os dados em campo
+  
+  Para a criação das tabelas de conversão entre as unidades, pode-se consultar fontes externas contendo constantes de conversão já calculadas.
+  Caso deseje-se utilizar grandezas inventadas, um bom exercício é inspirar-se no Sistema Imperial de Unidades e utilizar as partes do corpo de um indivíduo ou de um objeto.
+  Por exemplo, os braços, mãos e pernas de uma pessoa ou as pernas e assento de uma cadeira.
+  
+  
+  ## Aperte o play!
+  
+  Simule o algoritmo descrito utilizando a linguagem de programação Python:
+
+
+  """
+
+conclusaoDoArtigo:
+  """
+  Na prática, os valores das grandezas representados em diferentes unidades podem ser convertidos utilizando a seguinte fórmula
+  
+  *u<sub>final</sub> = c . u<sub>original</sub>*,
+  
+  na qual *u<sub>original</sub>* e *u<sub>final</sub>* são as medições da grandeza nas unidades original e final, respectivamente, e *c* representa o coeficiente de conversão entre as unidas original e final, nesta ordem.
+  
+  Como exemplo, para convertermos 3 m em pés devemos fazer *u<sub>pés</sub> \\approx 3.2808 \\times 3 \\implies u<sub>pés</sub> \\approx 9,8425* permitindo concluir que 3 m equivalem aproximadamente a 9,8425 pés.
+  O uso do algoritmo implementado contribui para o cálculo quase instantâneo entre as conversões entre as unidades bastando informar o valor da medição e unidade original e a unidade final. O retrabalho de procurar os coeficientes de conversão sempre que deseja-se efetuar a conversão é evitado, uma vez que as tabelas utilizadas para a conversão permanecem salvas.
+
   """
