@@ -16,12 +16,12 @@ textoDoArtigo = """
   Realizamos medições quando queremos caracterizar um objeto, uma pessoa ou um animal por meio da comparação com padrões conhecidos de comprimento, massa, volume e outros.
   Podemos ainda avaliar o desempenho de atividades com o uso de padrões de velocidade, potências e outros.
   
-  Os padrões internacionais são resultados de acordos entre cientistas de diferentes países sobre os procedimentos necessários para a reprodução destes padrões e eles são agrupados em **Sistemas de Medidas**. Atualmente, os seguintes sistemas de medidas são utilizados:
+  Os padrões internacionais são resultados de acordos entre cientistas de diferentes países sobre os procedimentos necessários para a reprodução desses padrões e eles são agrupados em **Sistemas de Medidas**. Atualmente, os seguintes sistemas de medidas são utilizados:
   - Sistema Internacional de Unidades (SI)
   - Sistema Imperial de Unidades
   
   
-  ## O Sistema internacional de unidades
+  ## O sistema internacional de unidades
   
   Em $1971$, na $14^a$ Conferência Geral de Pesos e Medidas, sete grandezas foram selecionadas como fundamentais para constituir a base do SI:
   
@@ -50,12 +50,12 @@ textoDoArtigo = """
   |Jardas           |yd                   |$0,9144$ m                     |
   |Milha            |mi                   |$1.609,344$ m                  |
   |                 |*Área*               |                               |
-  |Acre             |mi                   |$4.046,86$ m$^{2}$             |
+  |Acre             |ac                   |$4.046,86$ m$^{2}$             |
   |Milha quadrada   |sq mi                |$2.589.988,110336$ m$^2$       |
   |                 |*Volume*             |                               |
   |Onças            |oz                   |$0,0000295735$ m$^3$           |
-  |Pinta            |pt                   |$0,000473176 m$^3$             |
-  |Galão            |gal                  |$0,00378541 m$^3$              |
+  |Pinta            |pt                   |$0,000473176$ m$^3$             |
+  |Galão            |gal                  |$0,00378541$ m$^3$              |
   |                 |*Massa*              |                               |
   |Libras           |lb                   |$0,4536$ kg                    |
   |Stones           |st                   |$6,3503$ kg                    |
