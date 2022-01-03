@@ -45,7 +45,7 @@ textoDoArtigo = """
   |Nome da Unidade  |Símbolo da Unidade |Equivalência com o SI          |
   |:--              |:--:               |                            --:|              
   |                 |Comprimento        |                               |
-  |Polegada         |in                 |$0,0254$ m                       |
+  |Polegada         |in                 |0,0254 m                       |
   |Pés              |ft                 |0,3048 m                       |
   |Jardas           |yd                 |0,9144 m                       |
   |Milha            |mi                 |1.609,344 m                    |
