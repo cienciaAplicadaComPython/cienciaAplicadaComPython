@@ -62,4 +62,20 @@ textoDoArtigo = """
   |Tonelada         |ton                  |1.016,0469 kg                  |
 
 
+  ## O algoritmo
+  
+  Como base de um sistema com interfaceamento com o usuário, o algoritmo a ser utilizado deve requisitar os valores de cada um dos parâmetros de entrada.
+  
+  Os parâmetros de entrada devem ser:
+  - A unidade original;
+  - A unidade final para qual deseja-se realizar a conversão;
+  - A medição realizada na unidade original.
+  Com os valores dos parâmetros anteriores informados, a medição realizada para a unidade original deve ser convertida para a unidade final e retornada ao usuário.
+  
+  Para permitir que o usuário informe as unidades original e final e tenha o valor da medição convertido, a classe de tabelas de conversão é utilizada e caracterizada a seguir:
+  - A única propriedade da classe indica quantas tabelas de conversão existem;
+  - O único método da classe utiliza o valor da sua única propriedade para retornar uma tabela de conversão específica contendo as unidades aplicáveis para a grandeza em questão.
+  
+  Como adicional, o usuário deve ser instruído corretamente sobre os valores a serem informados e poder reexecutar o algoritmo o número de vezes desejado em sequência, informando quando não é mais necessário.
+
   """
