@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
 
-topico = st.sidebar.radio(
+topico = st.sidebar.selectbox(
     'Escolha um tópico:',
     (
         'Introdução',
@@ -28,15 +28,13 @@ elif topico == 'Medição':
     topicoDeMedicao = st.sidebar.radio(
         'Escolha um tópico de medição:',
         (
-            'Quanto tempo dura uma ultrapassagem?',
+            'Como converter medidas entre sistemas diferentes?',
             ""
         ),
     )
     
-    if topicoDeMedicao == 'Quanto tempo dura uma ultrapassagem?':
-        """
-        # Em desenvolvimento
-        """
+    if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
+        st.write(ComoConverterMedidasEntreSistemasDiferentes, unsafe_allow_html = True)
 
 elif topico == 'Mecânica':
     topicoDeMecanica = st.sidebar.radio(
