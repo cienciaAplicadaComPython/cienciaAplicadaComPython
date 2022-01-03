@@ -35,7 +35,7 @@ elif topico == 'Medição':
     )
     
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
-        st.write(textoDeComoConverterMedidasEntreDiferentesSistemas)
+        textoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
 
 elif topico == 'Mecânica':
