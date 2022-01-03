@@ -1,3 +1,3 @@
-"""
-# Como converter medidas entre sistemas diferentes?
-"""
+textoDoArtigo = """
+  # Como converter medidas entre sistemas diferentes?
+  """
