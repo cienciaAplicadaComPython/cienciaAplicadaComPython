@@ -94,6 +94,10 @@ textoDoArtigo = """
   """
 
 conclusaoDoArtigo = """
+
+  ## Conclusão
+  
+  
   Na prática, os valores das grandezas representados em diferentes unidades podem ser convertidos utilizando a seguinte fórmula
   
   $u_{final} = c \\times u_{original}$,
