@@ -1,5 +1,5 @@
 import streamlit as st
-import comoConverterMedidasEntreDiferentesSistemas
+import comoConverterMedidasEntreDiferentesSistemas as comoConverterMedidasEntreDiferentesSistemas
 
 st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
 
