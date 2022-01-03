@@ -88,11 +88,8 @@ textoDoArtigo = """
   Por exemplo, os braços, mãos e pernas de uma pessoa ou as pernas e assento de uma cadeira.
   
   
-  ## Aperte o play!
+  ## Implemente o algoritmo!
   
-  Simule o algoritmo descrito utilizando a linguagem de programação Python:
-
-
   """
 
 conclusaoDoArtigo = """
