@@ -21,7 +21,7 @@ if topico == 'Introdução':
          
          Como objetivo, espera-se aumentar o interesse do leitor pela ciência, estimular a sua natureza investigativa e apoiar a integração entre a ciência e computação.
          
-         *Obrigado por visitar **Ciência Aplicada com Python***
+         *Obrigado por visitar *Ciência Aplicada com Python**
          """
         
 elif topico == 'Medição':
