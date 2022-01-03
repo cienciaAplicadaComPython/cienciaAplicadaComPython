@@ -73,7 +73,7 @@ textoDoArtigo = """
   
   Com os valores dos parâmetros anteriores informados, a medição realizada para a unidade original deve ser convertida para a unidade final e retornada ao usuário.
   
-  Para permitir que o usuário informe as unidades original e final e tenha o valor da medição convertido, a classe de tabelas de conversão é utilizada e caracterizada a seguir:
+  Para permitir que o usuário informe as unidades original e final e tenha o valor da medição convertido, uma classe de tabelas de conversão como caracterizada a seguir é utilizada:
   - A única propriedade da classe indica quantas tabelas de conversão existem;
   - O único método da classe utiliza o valor da sua única propriedade para retornar uma tabela de conversão específica contendo as unidades aplicáveis para a grandeza em questão.
   
