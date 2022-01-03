@@ -93,8 +93,7 @@ textoDoArtigo = """
 
   """
 
-conclusaoDoArtigo:
-  """
+conclusaoDoArtigo = """
   Na prática, os valores das grandezas representados em diferentes unidades podem ser convertidos utilizando a seguinte fórmula
   
   *u<sub>final</sub> = c . u<sub>original</sub>*,
