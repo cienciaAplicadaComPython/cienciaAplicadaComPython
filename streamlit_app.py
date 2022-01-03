@@ -19,7 +19,8 @@ if topico == 'Introdução':
          
     Está aplicação WEB contém uma coleção de artigos com respostas baseadas na ciência à perguntas feitas livremente.
     Muitas delas são inspiradas em leituras, filmes, séries, documentários e viagens.
-    Cada artigo contém um algoritmo escrito com base na linguagem de programação *ython* que permite a utilização da solução proposta de maneira prática.
+    
+    Cada artigo contém um algoritmo escrito com base na linguagem de programação *Python* que permite a utilização da solução proposta de maneira prática.
          
     Como objetivo, espera-se aumentar o interesse do leitor pela ciência, estimular a sua natureza investigativa e apoiar a integração entre a ciência e computação.
          
