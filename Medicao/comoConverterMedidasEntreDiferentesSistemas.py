@@ -50,7 +50,7 @@ textoDoArtigo = """
   |Jardas           |yd                   |0,9144 m                       |
   |Milha            |mi                   |1.609,344 m                    |
   |                 |*Área*               |                               |
-  |Acre             |mi                   |4.046,86 m$^{2}$         |
+  |Acre             |mi                   |4.046,86 m$$^{2}$$         |
   |Milha quadrada   |sq mi                |2.589.988,110336 m<sup>2</sup> |
   |                 |*Volume*             |                               |
   |Onças            |oz                   |0,0000295735 m<sup>3</sup>     |
