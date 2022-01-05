@@ -40,7 +40,8 @@ elif topico == 'Medição':
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
         textoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
-        codigoDoAlgoritmo()
+        lista = codigoDoAlgoritmo()
+        lista
         conclusaoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
         
