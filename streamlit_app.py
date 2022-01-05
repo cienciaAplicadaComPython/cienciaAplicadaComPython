@@ -40,7 +40,7 @@ elif topico == 'Medição':
         textoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
         
-        '''pip
+        '''py
         aa
         '''
         
