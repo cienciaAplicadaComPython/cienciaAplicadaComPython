@@ -73,7 +73,8 @@ elif topico == 'Medição':
         Implemente o código que instância uma tabela de conversão da classe e realiza a conversão entre as medições:
         '''
         with st.echo():
-        
+            aaa
+            
         conclusaoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
         
