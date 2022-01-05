@@ -92,6 +92,8 @@ textoDoArtigo = """
   
   """
 
+  st.write('Aqui vai o código')
+
 conclusaoDoArtigo = """
 
   ## Conclusão
