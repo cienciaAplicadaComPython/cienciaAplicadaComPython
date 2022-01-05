@@ -1,6 +1,6 @@
 import streamlit as st
 from Medicao.comoConverterMedidasEntreDiferentesSistemas import textoDoArtigo as textoDeComoConverterMedidasEntreDiferentesSistemas
-from Medicao import codigoDoAlgoritmo
+from Medicao import codigoDoAlgoritmo as codigoDoAlgoritmo
 from Medicao.comoConverterMedidasEntreDiferentesSistemas import conclusaoDoArtigo as conclusaoDeComoConverterMedidasEntreDiferentesSistemas
 
 st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
