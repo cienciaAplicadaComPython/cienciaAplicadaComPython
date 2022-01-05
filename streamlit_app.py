@@ -1,7 +1,6 @@
 import streamlit as st
 import subprocess
 from Medicao.comoConverterMedidasEntreDiferentesSistemas import textoDoArtigo as textoDeComoConverterMedidasEntreDiferentesSistemas
-from Medicao import codigoDoAlgoritmo as codigoDoAlgoritmo
 from Medicao.comoConverterMedidasEntreDiferentesSistemas import conclusaoDoArtigo as conclusaoDeComoConverterMedidasEntreDiferentesSistemas
 
 st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
@@ -42,7 +41,7 @@ elif topico == 'Medição':
         textoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
         
-        subprocess.run(["python", "codigoDoAlgoritmo"])
+        subprocess.run(["python", "codigoDoAlgoritmo.py"])
         
         conclusaoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
