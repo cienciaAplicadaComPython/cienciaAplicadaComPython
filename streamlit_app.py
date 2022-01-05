@@ -70,7 +70,7 @@ elif topico == 'Medição':
                   ["5      ", "       ", "st     ", "6.35041", "14     ", "1      "]]
         
         '''
-        Implemente o código que instância uma tabela de conversão da classe e realiza a conversão entre as medições:
+        Implemente o código que instancia uma tabela de conversão da classe e realiza a conversão entre as medições:
         '''
             
         conclusaoDeComoConverterMedidasEntreDiferentesSistemas
