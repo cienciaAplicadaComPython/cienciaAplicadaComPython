@@ -92,7 +92,7 @@ textoDoArtigo = """
   
   """
 
-  st.write('Aqui vai o código')
+st.write('Aqui vai o código')
 
 conclusaoDoArtigo = """
 
