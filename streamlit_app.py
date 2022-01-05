@@ -1,5 +1,6 @@
 import streamlit as st
 from Medicao.comoConverterMedidasEntreDiferentesSistemas import textoDoArtigo as textoDeComoConverterMedidasEntreDiferentesSistemas
+from Medicao.codigoDoAlgoritmo import codigoDoAlgoritmo as codigoDoAlgoritmo
 from Medicao.comoConverterMedidasEntreDiferentesSistemas import conclusaoDoArtigo as conclusaoDeComoConverterMedidasEntreDiferentesSistemas
 
 st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
@@ -44,6 +45,8 @@ elif topico == 'Medição':
         Crie a classe de tabelas de conversão:
         '''
         with st.echo():
+            codigoDoAlgoritmo()
+            
             # Classe com todas as tabelas de conversao
             class tabelaParaConversaoDeMedidas:
               def __init__(self):
