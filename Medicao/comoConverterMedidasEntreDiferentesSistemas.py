@@ -70,7 +70,7 @@ introducaoDoArtigo = """# Como converter medidas entre sistemas diferentes?
   - A unidade final para qual deseja-se realizar a conversão;
   - A medição realizada na unidade original.
   
-  Com os valores dos parâmetros anteriores informados, a medição realizada para a unidade original deve ser convertida para a unidade final e retornada ao usuário.
+Com os valores dos parâmetros anteriores informados, a medição realizada para a unidade original deve ser convertida para a unidade final e retornada ao usuário.
   
   Para permitir que o usuário informe as unidades original e final e tenha o valor da medição convertido, uma classe de tabelas de conversão como caracterizada a seguir é utilizada:
   - A única propriedade da classe indica quantas tabelas de conversão existem;
