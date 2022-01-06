@@ -61,7 +61,7 @@ elif topico == 'Mecânica':
         ),
     )
     
-    if topicoDeMecanica == 'Como converter medidas?':
+    if topicoDeMecanica == 'Quanto tempo demora uma ultrapassagem?':
         """
         # Em desenvolvimento
         """
