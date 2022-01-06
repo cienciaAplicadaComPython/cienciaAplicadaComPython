@@ -1,9 +1,5 @@
 import streamlit as st
 
-from Medicao.comoConverterMedidasEntreDiferentesSistemas import textoDoArtigo as textoDeComoConverterMedidasEntreDiferentesSistemas
-from Medicao.codigoDoAlgoritmo import codigoDeTabelaParaConversaoDeMedidas as codigoDeTabelaParaConversaoDeMedidas
-from Medicao.comoConverterMedidasEntreDiferentesSistemas import conclusaoDoArtigo as conclusaoDeComoConverterMedidasEntreDiferentesSistemas
-
 st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
 
 topico = st.sidebar.selectbox(
@@ -41,23 +37,17 @@ elif topico == 'Medição':
     )
     
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
-        textoDeComoConverterMedidasEntreDiferentesSistemas
+        from Medicao.comoConverterMedidasEntreDiferentesSistemas.introducaoEConclusaoDoArtigo.py import textoDoArtigo, conclusaoDoArtigo
+        from Medicao.comoConverterMedidasEntreDiferentesSistemas.implementeOAlgoritmo import introducaoDoCodigoDoAlgoritmo, codigoDeTabelaParaConversaoDeMedidas, parteFinalDoCodigoDoAlgoritmo, codigoPrincipalDoAlgoritmo
+        
+        textoDoArtigo
         st.write('')
-        
-        '''
-        Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:
-        '''
-        
+        introducaoDoCodigoDoAlgoritmo       
         st.code(codigoDeTabelaParaConversaoDeMedidas, language='python')
-        
-        '''
-        Implemente o código que instancia uma tabela de conversão da classe e realiza a conversão entre as medições:
-        '''
-        codigoPrincipal = '''def hello():
-            print("Hello, Streamlit!")'''
-        st.code(codigoPrincipal, language='python')
-            
-        conclusaoDeComoConverterMedidasEntreDiferentesSistemas
+        parteFinalDoCodigoDoAlgoritmo
+        st.code(codigoPrincipalDoAlgoritmo, language='python')
+        st.write('')
+        conclusaoDoArtigo
         st.write('')
         
 
