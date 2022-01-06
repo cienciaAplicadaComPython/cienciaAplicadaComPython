@@ -1,4 +1,6 @@
-introducaoDoCodigoDoAlgoritmo = '''Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:'''
+introducaoDoCodigoDoAlgoritmo = '''## Implemente o algoritmo!
+
+Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:'''
 
 codigoDeTabelaParaConversaoDeMedidas = '''# Classe com todas as tabelas de conversao
 class tabelaParaConversaoDeMedidas:
