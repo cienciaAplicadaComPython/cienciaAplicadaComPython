@@ -2,4 +2,3 @@ Cada repositório representa uma aplicação web baseada na linguagem de program
 
 Para acessar as aplicações WEB visite:
  - [Ciência Aplicada Com Python](https://share.streamlit.io/cienciaaplicadacompython/cienciaaplicadacompython/main)
- - [Comparar Dois Textos](https://share.streamlit.io/cienciaaplicadacompython/comparardoistextos/main)
