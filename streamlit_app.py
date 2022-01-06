@@ -77,7 +77,7 @@ elif topico == 'Medição':
         '''
         codigoPrincipal = '''def hello():
             print("Hello, Streamlit!")'''
-        st.code(code, language='python')
+        st.code(codigoPrincipal, language='python')
             
         conclusaoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
