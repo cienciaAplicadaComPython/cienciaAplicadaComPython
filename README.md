@@ -5,4 +5,4 @@ Os algoritmos são baseados na linguagem de programação **Python**.
 A aplicação WEB é implementada por **Streamlit**.
 
 Para acessar as aplicações WEB visite:
- - [Ciência Aplicada Com Python](https://share.streamlit.io/cienciaaplicadacompython/cienciaaplicadacompythonnaweb/main)
+ - [Ciência Aplicada com Python na WEB](https://share.streamlit.io/cienciaaplicadacompython/cienciaaplicadacompythonnaweb/main)
