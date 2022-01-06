@@ -76,7 +76,7 @@ Com os valores dos parâmetros anteriores informados, a medição realizada para
   - A única propriedade da classe indica quantas tabelas de conversão existem;
   - O único método da classe utiliza o valor da sua única propriedade para retornar uma tabela de conversão específica contendo as unidades aplicáveis para a grandeza em questão.
   
-  Como adicional, o usuário deve ser instruído corretamente sobre os valores a serem informados e poder reexecutar o algoritmo o número de vezes desejado em sequência, informando quando não é mais necessário.
+Como adicional, o usuário deve ser instruído corretamente sobre os valores a serem informados e poder reexecutar o algoritmo o número de vezes desejado em sequência, informando quando não é mais necessário.
 
   
   ## Colete os dados em campo
