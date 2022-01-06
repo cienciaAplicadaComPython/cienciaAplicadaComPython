@@ -112,7 +112,7 @@ class tabelaParaConversaoDeMedidas:
             ["4      ", "       ", "lbs    ", "0.45359", "1      ", "0.07143"],
             ["5      ", "       ", "st     ", "6.35041", "14     ", "1      "]]'''
 
-parteFinalDoCodigoDoAlgoritmo = '''Implemente o código que instancia uma tabela de conversão da classe e realiza a conversão entre as medições:'''
+parteFinalDoCodigoDoAlgoritmo = '''Implemente o código que instancia uma tabela de conversão da classe e realiza a conversão entre as medições em um arquivo principal:'''
 
 codigoPrincipalDoAlgoritmo = '''# Importa os modulos necessarios
 import os 
