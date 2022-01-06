@@ -1,3 +1,6 @@
+introducaoDoCodigoDoAlgoritmo = '''Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:
+'''
+
 codigoDeTabelaParaConversaoDeMedidas = '''# Classe com todas as tabelas de conversao
 class tabelaParaConversaoDeMedidas:
     def __init__(self):
@@ -19,3 +22,6 @@ class tabelaParaConversaoDeMedidas:
             ["3      ", ">      ", "kg     ", "1      ", "2.20462", "0.15747"],
             ["4      ", "       ", "lbs    ", "0.45359", "1      ", "0.07143"],
             ["5      ", "       ", "st     ", "6.35041", "14     ", "1      "]]'''
+
+codigoPrincipalDoAlgoritmo = '''
+'''
