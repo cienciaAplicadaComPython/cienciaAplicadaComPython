@@ -91,8 +91,7 @@ introducaoDoCodigoDoAlgoritmo = '''## Implemente o algoritmo!
 
   Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:'''
 
-codigoDeTabelaParaConversaoDeMedidas = '''# -*- coding: utf-8 -*-
-# Classe com todas as tabelas de conversao
+codigoDeTabelaParaConversaoDeMedidas = '''# Classe com todas as tabelas de conversao
 class tabelaParaConversaoDeMedidas:
     def __init__(self):
         self.qtdDeTabelas = 2 #propriedade para armazenar o numero de tabelas
@@ -116,8 +115,7 @@ class tabelaParaConversaoDeMedidas:
 
 parteFinalDoCodigoDoAlgoritmo = '''Implemente o código que instancia uma tabela de conversão da classe e realiza a conversão entre as medições em um arquivo principal:'''
 
-codigoPrincipalDoAlgoritmo = '''# -*- coding: utf-8 -*-
-# Importa os modulos necessarios
+codigoPrincipalDoAlgoritmo = '''# Importa os modulos necessarios
 import os 
 from  tabelaParaConversaoDeMedidas import tabelaParaConversaoDeMedidas
 
