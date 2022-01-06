@@ -236,6 +236,8 @@ while desejaCont: #enquanto deseja continuar
     if desejaCont == 1:
         clear()'''
 
+conclusaoDoAlgoritmo = """**Execute o código anterior e voilá!**"""
+
 conclusaoDoArtigo = """## Conclusão
   
   
