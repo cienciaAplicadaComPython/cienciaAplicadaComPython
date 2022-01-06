@@ -1,6 +1,4 @@
-textoDoArtigo = """
-  
-  # Como converter medidas entre sistemas diferentes?
+textoDoArtigo = """# Como converter medidas entre sistemas diferentes?
   
   *Como converter as polegadas em metros ou vice-versa? O que a medida onças representa?
   Quais sistemas de medidas existem?
@@ -86,15 +84,9 @@ textoDoArtigo = """
   
   Caso deseje-se utilizar grandezas inventadas, um bom exercício é inspirar-se no Sistema Imperial de Unidades e utilizar as partes do corpo de um indivíduo ou de um objeto.
   Por exemplo, os braços, mãos e pernas de uma pessoa ou as pernas e assento de uma cadeira.
-  
-  
-  ## Implemente o algoritmo!
-  
   """
 
-conclusaoDoArtigo = """
-
-  ## Conclusão
+conclusaoDoArtigo = """## Conclusão
   
   
   Na prática, os valores das grandezas representados em diferentes unidades podem ser convertidos utilizando a seguinte fórmula
@@ -105,6 +97,4 @@ conclusaoDoArtigo = """
   
   Como exemplo, para convertermos $3$ m em pés devemos fazer $u_{pés} = c \\times u_{metros} \implies u_{pés} \\approx 3 \\times 3.2808 \implies u_{pés} \\approx 9,8425$ permitindo concluir que $3$ m equivalem aproximadamente a $9,8425$ pés.
   
-  O uso do algoritmo implementado contribui para o cálculo quase instantâneo entre as conversões entre as unidades bastando informar o valor da medição e unidade original e a unidade final. O retrabalho de procurar os coeficientes de conversão sempre que deseja-se efetuar a conversão é evitado, uma vez que as tabelas utilizadas para a conversão permanecem salvas.
-
-  """
+  O uso do algoritmo implementado contribui para o cálculo quase instantâneo entre as conversões entre as unidades bastando informar o valor da medição e unidade original e a unidade final. O retrabalho de procurar os coeficientes de conversão sempre que deseja-se efetuar a conversão é evitado, uma vez que as tabelas utilizadas para a conversão permanecem salvas."""
