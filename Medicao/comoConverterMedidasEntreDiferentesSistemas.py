@@ -33,6 +33,7 @@ introducaoDoArtigo = """# Como converter medidas entre sistemas diferentes?
   |Densidade luminosa       |candela            |Cd                   |
   |Corrente elétrica        |ampere             |A                    |
 
+  
   Outras unidades são derivadas das unidades fundamentais do SI. Por exemplo, a grandeza força é representada pela unidade newton (N) a qual equivale a kg*.*m/s.
   
   
@@ -139,7 +140,7 @@ while desejaCont: #enquanto deseja continuar
     erroGrandezaEscolh = True
     while erroGrandezaEscolh:
         print("Digite o numero correspondente a grandeza para a qual voce deseja realizar uma conversao de unidades:")
-        grandezaEscolhida = int(input("1: Comprimento\n2: Massa\n"))
+        grandezaEscolhida = int(input("1: Comprimento\\n2: Massa\\n"))
         if grandezaEscolhida in range(1, instanciaDoObjetoComTodasAsTabelas.qtdDeTabelas + 1):
             erroGrandezaEscolh = False
             tabelaConversao = instanciaDoObjetoComTodasAsTabelas.gerarTabela(grandezaEscolhida)
