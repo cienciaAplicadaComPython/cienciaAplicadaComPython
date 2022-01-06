@@ -1,3 +1,5 @@
-Esse repositório representa uma página da web com uma coleção de artigos exemplificando a aplicação da ciência por meio da linguagem de programação Python.
+Cada repositório representa uma aplicação web baseada na linguagem de programação **Python**.
 
-O objetivo principal é integrar disciplinas escolares, ora separadas da computação, com algoritmos computacionais.
+Para acessar as aplicações WEB visite:
+ - [Ciência Aplicada Com Python](https://share.streamlit.io/cienciaaplicadacompython/cienciaaplicadacompython/main)
+ - [Comparar Dois Textos](https://share.streamlit.io/cienciaaplicadacompython/comparardoistextos/main)
