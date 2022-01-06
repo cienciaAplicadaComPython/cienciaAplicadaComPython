@@ -143,10 +143,10 @@ while desejaCont: #enquanto deseja continuar
             erroGrandezaEscolh = False
             tabelaConversao = instanciaDoObjetoComTodasAsTabelas.gerarTabela(grandezaEscolhida)
         else:
-            print("\u001b[31mErro: O numero correspondente a grandeza nao pode ser diferente de:")
+            print("\\u001b[31mErro: O numero correspondente a grandeza nao pode ser diferente de:")
             for i in range(1, instanciaDoObjetoComTodasAsTabelas.qtdDeTabelas + 1):
                 print(i)
-            print ("\033[0;0m")
+            print ("\\033[0;0m")
     
     # Imprime a tabela para conversao de unidades correspondente a grandeza escolhida
     print("A tabela correspondente para conversao de unidades e:")
@@ -175,10 +175,10 @@ while desejaCont: #enquanto deseja continuar
             if movSetaEsquerValid:
                 erroQtdLinhas = False
             else:
-                print("\u001b[31mErro: A posicao de linha nao pode ser diferente de:")
+                print("\\u001b[31mErro: A posicao de linha nao pode ser diferente de:")
                 for i in valorAceitPosLinhaMovSetaEsquer:
                     print(i)
-                print ("\033[0;0m")
+                print ("\\033[0;0m")
         tabelaConversao[posInicSetaEsquer][1] = len(tabelaConversao[posInicSetaEsquer][2])*" "
         tabelaConversao[int(movSetaEsquer)][1] = ">" + (len(tabelaConversao[posInicSetaEsquer][2]) - 1)*" "
         posInicSetaEsquer = int(movSetaEsquer)
@@ -196,10 +196,10 @@ while desejaCont: #enquanto deseja continuar
             if movSetaAcimValid:
                 erroQtdColun = False
             else:
-                print("\u001b[31mErro: A posicao de coluna nao pode ser diferente de:")
+                print("\\u001b[31mErro: A posicao de coluna nao pode ser diferente de:")
                 for i in valorAceitPosColunMovSetaAcima:
                     print(i)
-                print ("\033[0;0m")
+                print ("\\033[0;0m")
         tabelaConversao[1][posInicSetaAcima] = len(tabelaConversao[2][posInicSetaAcima])*" "
         tabelaConversao[1][int(movSetaAcim)] = "v" + (len(tabelaConversao[2][posInicSetaAcima]) - 1)*" "
         posInicSetaAcima = int(movSetaAcim)
