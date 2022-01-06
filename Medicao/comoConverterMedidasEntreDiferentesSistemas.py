@@ -88,7 +88,7 @@ introducaoDoArtigo = """# Como converter medidas entre sistemas diferentes?
 
 introducaoDoCodigoDoAlgoritmo = '''## Implemente o algoritmo!
 
-Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:'''
+  Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:'''
 
 codigoDeTabelaParaConversaoDeMedidas = '''# Classe com todas as tabelas de conversao
 class tabelaParaConversaoDeMedidas:
@@ -115,7 +115,7 @@ class tabelaParaConversaoDeMedidas:
 parteFinalDoCodigoDoAlgoritmo = '''Implemente o código que instancia uma tabela de conversão da classe e realiza a conversão entre as medições:'''
 
 codigoPrincipalDoAlgoritmo = '''
-'''
+  '''
 
 conclusaoDoArtigo = """## Conclusão
   
