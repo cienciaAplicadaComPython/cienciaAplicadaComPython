@@ -46,7 +46,7 @@ elif topico == 'Medição':
         '''
         Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:
         '''
-        st.code('''
+        codigoDeTabelaParaConversaoDeMedidas = '''
             # Classe com todas as tabelas de conversao
             class tabelaParaConversaoDeMedidas:
               def __init__(self):
@@ -69,15 +69,15 @@ elif topico == 'Medição':
                   ["       ", "       ", "       ", "kg     ", "lbs    ", "st     "],
                   ["3      ", ">      ", "kg     ", "1      ", "2.20462", "0.15747"],
                   ["4      ", "       ", "lbs    ", "0.45359", "1      ", "0.07143"],
-                  ["5      ", "       ", "st     ", "6.35041", "14     ", "1      "]]''',
-                language='python')
+                  ["5      ", "       ", "st     ", "6.35041", "14     ", "1      "]]'''
+        st.code(codigoDeTabelaParaConversaoDeMedidas, language='python')
         
         '''
         Implemente o código que instancia uma tabela de conversão da classe e realiza a conversão entre as medições:
         '''
-        code = '''def hello():
+        codigoPrincipal = '''def hello():
             print("Hello, Streamlit!")'''
-        st.code(code
+        st.code(code, language='python')
             
         conclusaoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
