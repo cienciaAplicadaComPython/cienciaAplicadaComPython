@@ -37,7 +37,7 @@ elif topico == 'Medição':
     )
     
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
-        from Medicao.comoConverterMedidasEntreDiferentesSistemas.introducaoEConclusaoDoArtigo.py import textoDoArtigo, conclusaoDoArtigo
+        from Medicao.comoConverterMedidasEntreDiferentesSistemas.introducaoEConclusaoDoArtigo import textoDoArtigo, conclusaoDoArtigo
         from Medicao.comoConverterMedidasEntreDiferentesSistemas.implementeOAlgoritmo import introducaoDoCodigoDoAlgoritmo, codigoDeTabelaParaConversaoDeMedidas, parteFinalDoCodigoDoAlgoritmo, codigoPrincipalDoAlgoritmo
         
         textoDoArtigo
