@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import streamlit as st
 
 st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
@@ -39,7 +38,7 @@ elif topico == 'Medição':
     
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
         import Medicao
-        from Medicao.comoConverterMedidasEntreDiferentesSistemas import introducaoDoArtigo, introducaoDoCodigoDoAlgoritmo, codigoDeTabelaParaConversaoDeMedidas, parteFinalDoCodigoDoAlgoritmo, codigoPrincipalDoAlgoritmo, conclusaoDoArtigo
+        from Medicao.comoConverterMedidasEntreDiferentesSistemas import introducaoDoArtigo, introducaoDoCodigoDoAlgoritmo, codigoDeTabelaParaConversaoDeMedidas, parteFinalDoCodigoDoAlgoritmo, codigoPrincipalDoAlgoritmo, conclusaoDoAlgoritmo, conclusaoDoArtigo
         
         introducaoDoArtigo 
         st.write('')
@@ -47,6 +46,7 @@ elif topico == 'Medição':
         st.code(codigoDeTabelaParaConversaoDeMedidas, language='python')
         parteFinalDoCodigoDoAlgoritmo
         st.code(codigoPrincipalDoAlgoritmo, language='python')
+        conclusaoDoAlgoritmo
         st.write('')
         conclusaoDoArtigo
         st.write('')
