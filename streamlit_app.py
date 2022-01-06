@@ -46,8 +46,7 @@ elif topico == 'Medição':
         '''
         Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:
         '''
-        codigoDeTabelaParaConversaoDeMedidas = '''
-            # Classe com todas as tabelas de conversao
+        codigoDeTabelaParaConversaoDeMedidas = '''# Classe com todas as tabelas de conversao
             class tabelaParaConversaoDeMedidas:
               def __init__(self):
                 self.qtdDeTabelas = 2 #propriedade para armazenar o numero de tabelas
