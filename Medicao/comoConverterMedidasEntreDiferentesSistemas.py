@@ -166,9 +166,9 @@ while desejaCont: #enquanto deseja continuar
     
         # Solicita escolher a posicao de linha
         erroQtdLinhas = True
-        print("\n")
+        print("\\n")
         while erroQtdLinhas:
-            movSetaEsquer = input("Digite a posicao de linha para mover a seta ao lado esquerdo:\n")
+            movSetaEsquer = input("Digite a posicao de linha para mover a seta ao lado esquerdo:\\n")
             movSetaEsquerValid = False
             for i in valorAceitPosLinhaMovSetaEsquer:
                 if movSetaEsquer == i:
@@ -187,9 +187,9 @@ while desejaCont: #enquanto deseja continuar
     
         # Solicita escolher a posicao de coluna
         erroQtdColun = True
-        print("\n")
+        print("\\n")
         while erroQtdColun:
-            movSetaAcim = input("Digite a posicao de coluna para mover a seta acima:\n")
+            movSetaAcim = input("Digite a posicao de coluna para mover a seta acima:\\n")
             movSetaAcimValid = False
             for i in valorAceitPosColunMovSetaAcima:
                 if movSetaAcim == i:
@@ -214,15 +214,15 @@ while desejaCont: #enquanto deseja continuar
             print(" ".join(tabelaConversao[i]))
     
         # Solicita confirmacao
-        print("\nVoce deseja converter medidas de %s para %s" %(tabelaConversao[int(movSetaEsquer)][2].strip(), tabelaConversao[2][int(movSetaAcim)].strip()))
-        opcaoConversaoCorreta = int(input("Correto?\n0: Nao\n1: Sim\n"))
+        print("\\nVoce deseja converter medidas de %s para %s" %(tabelaConversao[int(movSetaEsquer)][2].strip(), tabelaConversao[2][int(movSetaAcim)].strip()))
+        opcaoConversaoCorreta = int(input("Correto?\\n0: Nao\\n1: Sim\\n"))
     
         # Limpa a tela caso as posicoes de linha e coluna devam ser escolhidas novamente
         if opcaoConversaoCorreta == 0:
             clear()
   
     # Solicita o valor da medicao original    
-    medicaoOrig = input("Digite o valor da medicao em %s\n" %tabelaConversao[int(movSetaEsquer)][2].strip())
+    medicaoOrig = input("Digite o valor da medicao em %s\\n" %tabelaConversao[int(movSetaEsquer)][2].strip())
   
     # Calcula o valor da medicao final
     medicaoFinal = float(medicaoOrig)*float(tabelaConversao[int(movSetaEsquer)][int(movSetaAcim)])
@@ -231,7 +231,7 @@ while desejaCont: #enquanto deseja continuar
     print("A medicao %s %s equivale a %s %s" %(medicaoOrig, tabelaConversao[int(movSetaEsquer)][2].strip(), medicaoFinal, tabelaConversao[2][int(movSetaAcim)].strip()))
   
     # Solicita confirmar se deseja continuar    
-    desejaCont = int(input("\nVoce deseja continuar?\n0: Nao\n1: Sim\n"))
+    desejaCont = int(input("\\nVoce deseja continuar?\\n0: Nao\\n1: Sim\\n"))
     
     if desejaCont == 1:
         clear()'''
