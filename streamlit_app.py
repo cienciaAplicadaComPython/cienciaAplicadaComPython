@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title='Ciência Aplicada com Python', page_icon = 'random')
+st.set_page_config(page_title='Ciência Aplicada com Python na Web', page_icon = 'random')
 
 topico = st.sidebar.selectbox(
     'Escolha um tópico:',
@@ -24,7 +24,7 @@ if topico == 'Introdução':
     
     Para baixar e instalar a última versão de Python, acesse [Python Org](https://www.python.org/downloads/).
          
-    *Obrigado por visitar* ***Ciência Aplicada com Python***
+    *Obrigado por visitar* ***Ciência Aplicada com Python na Web***.
     """
         
 elif topico == 'Medição':
