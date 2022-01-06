@@ -44,7 +44,7 @@ elif topico == 'Medição':
         st.write('')
         
         '''
-        Crie a classe de tabelas de conversão em um arquivo *tabelaDeConversaoDeMedidas.py*:
+        Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:
         '''
         with st.echo():          
             # Classe com todas as tabelas de conversao
