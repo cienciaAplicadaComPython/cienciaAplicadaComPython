@@ -74,6 +74,9 @@ elif topico == 'Medição':
         '''
         Implemente o código que instancia uma tabela de conversão da classe e realiza a conversão entre as medições:
         '''
+        code = '''def hello():
+            print("Hello, Streamlit!")'''
+        st.code(code, language='python')
             
         conclusaoDeComoConverterMedidasEntreDiferentesSistemas
         st.write('')
