@@ -71,5 +71,55 @@ Na prática, os valores das grandezas da fórmula anterior podem ser coletados d
 
 introducaoDoCodigoDoAlgoritmo = '''## Implemente o algoritmo
 
-Simule o algoritmo a seguir utilizando a linguagem de programação Python.
-'''
+Simule o algoritmo a seguir utilizando a linguagem de programação Python.'''
+
+codigoPrincipalDoAlgoritmo = '''import os
+
+def clear(): 
+ os.system('cls')
+
+i = 0
+
+while i == 0:
+  
+ print ('Calcula o tempo de ultrapassagem entre dois veiculos\n')
+ print('Informe os dados solicitados:\n')
+  
+ dc1 = float(input('Comprimento do veiculo que realiza a ultrapassagem (em metros):\n'))
+ dc2 = float(input('Comprimento do veiculo a ser ultrapassado (em metros):\n'))
+ dc1c2 = float(input('A distancia entre os dois veiculos logo antes da ultrapassagem (em metros):\n'))
+ deltav = float(input('A diferenca entre as velocidades dos dois veiculos (em kilometros/hora):\n'))
+  
+ t = (dc1 + dc2 + 2*dc1c2)/deltav*3.6
+  
+ print('O tempo de ultrapassagem calculado:\n%.2f s' %t)
+  
+ i = int(input('\nDeseja parar?\nSim: 1\nNao: 0\n'))
+  
+  
+ if i == 0:
+  clear()'''
+
+conclusaoDoAlgoritmo = '''**Execute o arquivo principal e voilá!**'''
+
+conclusaoDoArtigo = '''## Conclusão
+
+Como exemplo, suponha os seguintes valores para as grandezas:
+ - $d_{c_1} = 4$ m
+ - $d_{c_2} = 20$ m
+ - $d_{c_1c_2} = 100/3$ m
+ - $v_i$ = 60$ km/h.
+
+Realizando uma ultrapassagem com velocidade igual a $70$ km/h, teremos $\\Delta v = 10$ km/h.
+Logo, o tempo de ultrapassagem será de 
+
+$t = \\frac{4 + 20 + 2 \\times \\frac{100}{3}}{10} \\times 3,6\; \\text{s} \\ t = \\frac{816}{25}\; \\text{s} = 32,64\; \\text{s}$
+
+O resultado revela que ultrapassar um veículo de $20$ m de comprimento movendo-se a uma velocidade igual a $60$ km/h com uma velocidade superior igual a $70$ km/h é extremamente perigoso, pois o tempo de ultrapassagem seria muito longo.
+Se a velocidade de ultrapassagem for aumentada para $80$ km/h, o tempo de ultrapassagem será de
+
+$t = \\frac{4 + 20 + 2 \\times \\frac{100}{3}}{20} \\times 3,6\; \\text{s} \\ t = \\frac{272}{60} \\times 3,6\; \\text{s} \\approx 16,32\; \\text{s}$
+
+Agora entendemos que ultrapassar um veículo de $20$ m de comprimento movendo-se a uma velocidade igual a $60$ km/h com uma velocidade superior igual a $80$ km/h requer menos tempo.
+No entanto, a ultrapassagem ainda custará um longo tempo antes de ser completada, o que a torna arriscada.
+Nesse caso, é mais prudente realizar a ultrapassagem com uma velocidade superior a $80$ km/h.'''
