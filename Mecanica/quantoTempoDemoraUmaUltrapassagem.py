@@ -6,7 +6,7 @@ Entenda por meio deste exemplo de aplicação de física na vida real a dimensã
 
 Tempo de leitura: 8 minutos
 
-----------------------------
+---
 
 ## Introdução
 
