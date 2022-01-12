@@ -62,8 +62,8 @@ Como adicional, o usuário deve poder reexecutar o algoritmo o número de vezes 
 ## Colete os dados em campo
 
 Na prática, os valores das grandezas da fórmula anterior podem ser coletados da seguinte maneira:
- * $d_{c_1}$ é o comprimento do seu veículo em **metros**.
- * $d_{c_2}$ é o comprimento do veículo a ser ultrapassado em **metros**. Observe:
-  * Veículos longos apresentam o seu comprimento na traseira
-  * A largura de um veículo varia em média entre 4 e 6,5 metros
- * $d_{c_1c_2}$ é a distância entre o seu veículo e o veículo a ser ultrapassado logo antes de começar a ultrapassagem em **metros**. Observe:'''
+ - $d_{c_1}$ é o comprimento do seu veículo em **metros**.
+ - $d_{c_2}$ é o comprimento do veículo a ser ultrapassado em **metros**. Observe:
+   - Veículos longos apresentam o seu comprimento na traseira
+   - A largura de um veículo varia em média entre 4 e 6,5 metros
+ - $d_{c_1c_2}$ é a distância entre o seu veículo e o veículo a ser ultrapassado logo antes de começar a ultrapassagem em **metros**. Observe:'''
