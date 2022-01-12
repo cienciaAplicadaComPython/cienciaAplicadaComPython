@@ -33,13 +33,13 @@ $v = \\frac{d}{t}$
 
 na qual $v$, $d$ e $t$ representam a velocidade, a distância e o tempo, respectivamente.
 Aqui, vamos considerar somente a velocidade escalar.
-Como desejamos encontrar o tempo durante o qual é realizada a ultrapassagem, ou seja $t$, e é necessário que o veículo $C_1$ esteja com uma velocidade superior ao do veículo $C_2$, vamos considerar a diferença entre as velocidades dos dois veículos, $\Delta v$, ao invés de $v$.
-Logo, para o veículo $C_1$ percorrrer uma distância de $d_{c_1c_2} + d_{c_2} + d_{c_1c_2} + d_{c_1}$ sendo que a sua velocidade é superior a velocidade do veículo $C_2$ por $\Delta v$, será necessário um tempo de aproximadamente
+Como desejamos encontrar o tempo durante o qual é realizada a ultrapassagem, ou seja $t$, e é necessário que o veículo $C_1$ esteja com uma velocidade superior ao do veículo $C_2$, vamos considerar a diferença entre as velocidades dos dois veículos, $\\Delta v$, ao invés de $v$.
+Logo, para o veículo $C_1$ percorrrer uma distância de $d_{c_1c_2} + d_{c_2} + d_{c_1c_2} + d_{c_1}$ sendo que a sua velocidade é superior a velocidade do veículo $C_2$ por $\\Delta v$, será necessário um tempo de aproximadamente
 
-$t = \frac{d_{c_1} + d_{c_2} + 2 \times d_{c_1c_2}}{\Delta v}$
+$t = \\frac{d_{c_1} + d_{c_2} + 2 \\times d_{c_1c_2}}{\\Delta v}$
 
 Ao utilizar a fórmula acima, sempre observe as unidades!
-Caso você deseje utilizar $\Delta v$ em km/h, será preciso converter os valores de distância para km. Neste caso, o resultado obtido para o tempo será em horas.
+Caso você deseje utilizar $\\Delta v$ em km/h, será preciso converter os valores de distância para km. Neste caso, o resultado obtido para o tempo será em horas.
 Para utilizar os valores comumente pensados na prática, ou seja, a diferença de velocidades em km/h e as distâncias em m e obter o tempo de ultrapassagem em s, podemos utilizar a seguinte equação:
 
-$t = \frac{\frac{d_{c_1} + d_{c_2} + 2 \times d_{c_1c_2}\; \text{km}}{1000}}{\Delta v\; \text{km/h}} \times \frac{3.600\; \text{s}}{\text{h}} \\ t = \frac{d_{c_1} + d_{c_2} + 2 \times d_{c_1c_2}}{\Delta v} \times 3,6\; \text{s}$'''
+$t = \\frac{\\frac{d_{c_1} + d_{c_2} + 2 \\times d_{c_1c_2}\; \\text{km}}{1000}}{\\Delta v\; \\text{km/h}} \\times \\frac{3.600\; \\text{s}}{\\text{h}} \\ t = \\frac{d_{c_1} + d_{c_2} + 2 \\times d_{c_1c_2}}{\\Delta v} \\times 3,6\; \\text{s}$'''
