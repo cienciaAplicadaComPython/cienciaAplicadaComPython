@@ -32,7 +32,6 @@ elif topico == 'Medição':
         'Escolha um tópico de medição:',
         (
             'Como converter medidas entre sistemas diferentes?',
-            ""
         ),
     )
     
