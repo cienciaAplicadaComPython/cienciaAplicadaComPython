@@ -1,3 +1,5 @@
+from PIL import Image
+
 introducaoDoArtigo = '''# Quanto tempo demora uma ultrapassagem?
 
 *Sabe dizer quanto tempo você fica na pista contrária durante uma ultrapassagem?
@@ -22,7 +24,7 @@ Recorreremos ao seguinte modelo para encontrar a resposta:
  Chamemos este cenário de situação inicial.
  Os veículos $C1$ e $C2$ têm comprimento $d_{c1}$ e $d_{c2}$, respectivamente. A distância entre os veículos $C1$ e $C2$ é $d_{c1c2}$.'''
 
-imagemDeSituacaoInicial = 'quanto_tempo_demora_uma_ultrapassagem_situacao_final.jpg'
+imagemDeSituacaoInicial = Image.open('quanto_tempo_demora_uma_ultrapassagem_situacao_inicial.jpg')
 
 continuacaoDaIntroducaoDoArtigo = '''Após a ultrapassagem começar, vamos considerar que ela termina quando o veículo $C1$ estiver à frente do veículo $C2$ de uma distância igual a $d_{c1c2}$.
 Chamemos este cenário de situação final:'''
