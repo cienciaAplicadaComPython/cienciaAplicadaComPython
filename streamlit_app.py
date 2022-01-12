@@ -38,8 +38,7 @@ elif topico == 'Medição':
     
     if topicoDeMedicao == 'Como converter medidas entre sistemas diferentes?':
         from Medicao.comoConverterMedidasEntreDiferentesSistemas import introducaoDoArtigo as introducaoDoArtigo
-        from Medicao.comoConverterMedidasEntreDiferentesSistemas import codigoDeTabelaParaConversaoDeMedidas, parteFinalDoCodigoDoAlgoritmo, codigoPrincipalDoAlgoritmo, conclusaoDoAlgoritmo, conclusaoDoArtigo
-        from Medicao.comoConverterMedidasEntreDiferentesSistemas import introducaoDoCodigoDoAlgoritmo as introducaoDoCodigoDoAlgoritmo
+        from Medicao.comoConverterMedidasEntreDiferentesSistemas import introducaoDoCodigoDoAlgoritmo, codigoDeTabelaParaConversaoDeMedidas, parteFinalDoCodigoDoAlgoritmo, codigoPrincipalDoAlgoritmo, conclusaoDoAlgoritmo, conclusaoDoArtigo
         
         introducaoDoArtigo 
         st.write('')
@@ -64,7 +63,8 @@ elif topico == 'Mecânica':
     
     if topicoDeMecanica == 'Quanto tempo demora uma ultrapassagem?':
         from Mecanica.quantoTempoDemoraUmaUltrapassagem import introducaoDoArtigo as introducaoDoArtigo
-        from Mecanica.quantoTempoDemoraUmaUltrapassagem import imagemDeSituacaoInicial, continuacaoDaIntroducaoDoArtigo, conclusaoDaIntroducaoDoArtigo  
+        from Mecanica.quantoTempoDemoraUmaUltrapassagem import continuacaoDaIntroducaoDoArtigo, conclusaoDaIntroducaoDoArtigo  
+        from Mecanica.quantoTempoDemoraUmaUltrapassagem import imagemDeSituacaoInicial as imagemDeSituacaoInicial
         
         introducaoDoArtigo
         st.image(imagemDeSituacaoInicial)
