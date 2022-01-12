@@ -1,5 +1,3 @@
-from PIL import Image
-
 introducaoDoArtigo = '''# Quanto tempo demora uma ultrapassagem?
 
 *Sabe dizer quanto tempo você fica na pista contrária durante uma ultrapassagem?
