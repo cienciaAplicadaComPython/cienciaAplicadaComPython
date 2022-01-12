@@ -64,12 +64,11 @@ elif topico == 'Mecânica':
     if topicoDeMecanica == 'Quanto tempo demora uma ultrapassagem?':
         from Mecanica.quantoTempoDemoraUmaUltrapassagem import introducaoDoArtigo as introducaoDoArtigo
         from Mecanica.quantoTempoDemoraUmaUltrapassagem import continuacaoDaIntroducaoDoArtigo, conclusaoDaIntroducaoDoArtigo  
-        from Mecanica.quantoTempoDemoraUmaUltrapassagem import imagemDeSituacaoInicial as imagemDeSituacaoInicial
         
         introducaoDoArtigo
-        st.image(imagemDeSituacaoInicial)
-        imagemDeSituacaoInicial
-        continuacaoDaIntroducaoDoArtigo 
+        st.image('quanto_tempo_demora_uma_ultrapassagem_situacao_inicial.jpg')
+        continuacaoDaIntroducaoDoArtigo
+        st.image('quanto_tempo_demora_uma_ultrapassagem_situacao_final.jpg')
         conclusaoDaIntroducaoDoArtigo 
         st.write('')
 
