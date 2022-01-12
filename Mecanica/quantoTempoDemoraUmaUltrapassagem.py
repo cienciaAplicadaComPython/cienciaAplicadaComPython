@@ -117,6 +117,7 @@ Logo, o tempo de ultrapassagem será de
 $t = \\frac{4 + 20 + 2 \\times \\frac{100}{3}}{10} \\times 3,6\; \\text{s} \\ t = \\frac{816}{25}\; \\text{s} = 32,64\; \\text{s}$
 
 O resultado revela que ultrapassar um veículo de $20$ m de comprimento movendo-se a uma velocidade igual a $60$ km/h com uma velocidade superior igual a $70$ km/h é extremamente perigoso, pois o tempo de ultrapassagem seria muito longo.
+
 Se a velocidade de ultrapassagem for aumentada para $80$ km/h, o tempo de ultrapassagem será de
 
 $t = \\frac{4 + 20 + 2 \\times \\frac{100}{3}}{20} \\times 3,6\; \\text{s} \\ t = \\frac{272}{60} \\times 3,6\; \\text{s} \\approx 16,32\; \\text{s}$
