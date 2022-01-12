@@ -62,9 +62,10 @@ elif topico == 'Mecânica':
     )
     
     if topicoDeMecanica == 'Quanto tempo demora uma ultrapassagem?':
-        """
-        # Em desenvolvimento
-        """
+        from Mecanica.quantoTempoDemoraUmaUltrapassagem import introducaoDoArtigo as introducaoDoArtigo
+        
+        introducaoDoArtigo 
+        st.write('')
 
 st.caption('**Desenvolvido por**: Jefferson Silva')
 st.caption('**E-mail**: j.davidss@hotmail.com')
