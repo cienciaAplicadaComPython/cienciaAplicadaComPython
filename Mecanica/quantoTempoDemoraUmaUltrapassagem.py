@@ -82,19 +82,19 @@ i = 0
 
 while i == 0:
   
- print ('Calcula o tempo de ultrapassagem entre dois veiculos\n')
- print('Informe os dados solicitados:\n')
+ print ('Calcula o tempo de ultrapassagem entre dois veiculos\\n')
+ print('Informe os dados solicitados:\\n')
   
- dc1 = float(input('Comprimento do veiculo que realiza a ultrapassagem (em metros):\n'))
- dc2 = float(input('Comprimento do veiculo a ser ultrapassado (em metros):\n'))
- dc1c2 = float(input('A distancia entre os dois veiculos logo antes da ultrapassagem (em metros):\n'))
- deltav = float(input('A diferenca entre as velocidades dos dois veiculos (em kilometros/hora):\n'))
+ dc1 = float(input('Comprimento do veiculo que realiza a ultrapassagem (em metros):\\n'))
+ dc2 = float(input('Comprimento do veiculo a ser ultrapassado (em metros):\\n'))
+ dc1c2 = float(input('A distancia entre os dois veiculos logo antes da ultrapassagem (em metros):\\n'))
+ deltav = float(input('A diferenca entre as velocidades dos dois veiculos (em kilometros/hora):\\n'))
   
  t = (dc1 + dc2 + 2*dc1c2)/deltav*3.6
   
- print('O tempo de ultrapassagem calculado:\n%.2f s' %t)
+ print('O tempo de ultrapassagem calculado:\\n%.2f s' %t)
   
- i = int(input('\nDeseja parar?\nSim: 1\nNao: 0\n'))
+ i = int(input('\\nDeseja parar?\\nSim: 1\\nNao: 0\\n'))
   
   
  if i == 0:
