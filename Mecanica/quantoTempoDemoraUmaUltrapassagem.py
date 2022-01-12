@@ -17,7 +17,8 @@ Então vamos à resposta!
 
 ## Modelo
 
-Recorreremos ao seguinte modelo para encontrar a resposta:
+Recorreremos ao seguinte modelo para encontrar a resposta.
+
  - Dois veículos, $C_1$ e $C_2$, movem-se com velocidade constante na mesma direção e sentido, da esquerda para a direita.
  Chamemos este cenário de situação inicial.
  Os veículos $C_1$ e $C_2$ têm comprimento $d_{c_1}$ e $d_{c_2}$, respectivamente. A distância entre os veículos $C_1$ e $C_2$ é $d_{c_1c_2}$.'''
