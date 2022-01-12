@@ -87,7 +87,7 @@ Como adicional, o usuário deve ser instruído corretamente sobre os valores a s
   Por exemplo, os braços, mãos e pernas de uma pessoa ou as pernas e assento de uma cadeira.
   """
 
-introducaoDoCodigoDoAlgoritmo = '''## Implemente o algoritmo!
+introducaoDoCodigoDoAlgoritmo = '''## Implemente o algoritmo
 
   Crie a classe de tabelas de conversão em um arquivo *tabelaParaConversaoDeMedidas.py*:'''
 
