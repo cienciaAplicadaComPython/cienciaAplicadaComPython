@@ -63,8 +63,12 @@ elif topico == 'Mecânica':
     
     if topicoDeMecanica == 'Quanto tempo demora uma ultrapassagem?':
         from Mecanica.quantoTempoDemoraUmaUltrapassagem import introducaoDoArtigo as introducaoDoArtigo
+        from Mecanica.quantoTempoDemoraUmaUltrapassagem import imagemDeSituacaoInicial, continuacaoDaIntroducaoDoArtigo, conclusaoDaIntroducaoDoArtigo  
         
-        introducaoDoArtigo 
+        introducaoDoArtigo
+        st.image(imagemDeSituacaoInicial)
+        continuacaoDaIntroducaoDoArtigo 
+        conclusaoDaIntroducaoDoArtigo 
         st.write('')
 
 st.caption('**Desenvolvido por**: Jefferson Silva')
