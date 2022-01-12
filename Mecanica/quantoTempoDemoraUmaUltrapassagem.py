@@ -44,3 +44,16 @@ Caso você deseje utilizar $\\Delta v$ em km/h, será preciso converter os valor
 Para utilizar os valores comumente pensados na prática, ou seja, a diferença de velocidades em km/h e as distâncias em m e obter o tempo de ultrapassagem em s, podemos utilizar a seguinte equação:
 
 $t = \\frac{\\frac{d_{c_1} + d_{c_2} + 2 \\times d_{c_1c_2}\; \\text{km}}{1000}}{\\Delta v\; \\text{km/h}} \\times \\frac{3.600\; \\text{s}}{\\text{h}} \\ t = \\frac{d_{c_1} + d_{c_2} + 2 \\times d_{c_1c_2}}{\\Delta v} \\times 3,6\; \\text{s}$'''
+
+introducaoDoCodigoDoAlgoritmo = '''## O Algoritmo
+
+Como base de um sistema com interfaceamento com o usuário, o algoritmo a ser utilizado deve requisitar os valores de cada um dos parâmetros de entrada.
+O modelo do sistema estabelece que os parâmetros de entrada devem ser:
+ - O comprimento do veículo que realiza a manobra de ultrapassagem;
+ - O comprimento do veículo a ser ultrapassado;
+ - A distância entre os dois veículos;
+ - A diferença entre as velocidades dos dois veículos.
+
+Com os valores dos parâmetros anteriores informados, o tempo de duração deve ser calculado e retornado ao usuário.
+
+Como adicional, o usuário deve poder reexecutar o algoritmo o número de vezes desejado em sequência, informando quando não é mais necessário.'''
