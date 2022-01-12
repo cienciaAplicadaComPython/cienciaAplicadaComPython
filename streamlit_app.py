@@ -63,7 +63,7 @@ elif topico == 'Mecânica':
     
     if topicoDeMecanica == 'Quanto tempo demora uma ultrapassagem?':
         from Mecanica.quantoTempoDemoraUmaUltrapassagem import introducaoDoArtigo as introducaoDoArtigo
-        from Mecanica.quantoTempoDemoraUmaUltrapassagem import continuacaoDaIntroducaoDoArtigo, conclusaoDaIntroducaoDoArtigo, introducaoDoCodigoDoAlgoritmo  
+        from Mecanica.quantoTempoDemoraUmaUltrapassagem import continuacaoDaIntroducaoDoArtigo, conclusaoDaIntroducaoDoArtigo  
         
         introducaoDoArtigo
         st.image('quanto_tempo_demora_uma_ultrapassagem_situacao_inicial.jpg')
@@ -71,7 +71,7 @@ elif topico == 'Mecânica':
         st.image('quanto_tempo_demora_uma_ultrapassagem_situacao_final.jpg')
         conclusaoDaIntroducaoDoArtigo 
         st.write('')
-        introducaoDoCodigoDoAlgoritmo
+        #introducaoDoCodigoDoAlgoritmo
 
 st.caption('**Desenvolvido por**: Jefferson Silva')
 st.caption('**E-mail**: j.davidss@hotmail.com')
