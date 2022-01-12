@@ -20,10 +20,11 @@ Então vamos à resposta!
 Recorreremos ao seguinte modelo para encontrar a resposta.
 
  Dois veículos, $C_1$ e $C_2$, movem-se com velocidade constante na mesma direção e sentido, da esquerda para a direita.
- Chamemos este cenário de situação inicial.
- Os veículos $C_1$ e $C_2$ têm comprimento $d_{c_1}$ e $d_{c_2}$, respectivamente. A distância entre os veículos $C_1$ e $C_2$ é $d_{c_1c_2}$.'''
+ Chamemos este cenário de situação inicial:'''
 
-continuacaoDaIntroducaoDoArtigo = '''Após a ultrapassagem começar, vamos considerar que ela termina quando o veículo $C_1$ estiver à frente do veículo $C_2$ de uma distância igual a $d_{c_1c_2}$.
+continuacaoDaIntroducaoDoArtigo = '''Os veículos $C_1$ e $C_2$ têm comprimento $d_{c_1}$ e $d_{c_2}$, respectivamente.
+A distância entre os veículos $C_1$ e $C_2$ é $d_{c_1c_2}$.
+Após a ultrapassagem começar, vamos considerar que ela termina quando o veículo $C_1$ estiver à frente do veículo $C_2$ de uma distância igual a $d_{c_1c_2}$.
 Chamemos este cenário de situação final:'''
 
 conclusaoDaIntroducaoDoArtigo = '''Vamos desconsiderar o tempo que o carro leva para entrar na contramão, o atrito do asfalto, a resistência do vento e outras variáveis.
