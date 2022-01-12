@@ -43,9 +43,9 @@ Ao utilizar a fórmula acima, sempre observe as unidades!
 Caso você deseje utilizar $\\Delta v$ em km/h, será preciso converter os valores de distância para km. Neste caso, o resultado obtido para o tempo será em horas.
 Para utilizar os valores comumente pensados na prática, ou seja, a diferença de velocidades em km/h e as distâncias em m e obter o tempo de ultrapassagem em s, podemos utilizar a seguinte equação:
 
-$t = \\frac{\\frac{d_{c_1} + d_{c_2} + 2 \\times d_{c_1c_2}\; \\text{km}}{1000}}{\\Delta v\; \\text{km/h}} \\times \\frac{3.600\; \\text{s}}{\\text{h}} \\ t = \\frac{d_{c_1} + d_{c_2} + 2 \\times d_{c_1c_2}}{\\Delta v} \\times 3,6\; \\text{s}$'''
+$t = \\frac{\\frac{d_{c_1} + d_{c_2} + 2 \\times d_{c_1c_2}\; \\text{km}}{1000}}{\\Delta v\; \\text{km/h}} \\times \\frac{3.600\; \\text{s}}{\\text{h}} \\ t = \\frac{d_{c_1} + d_{c_2} + 2 \\times d_{c_1c_2}}{\\Delta v} \\times 3,6\; \\text{s}$.
 
-introducaoDoCodigoDoAlgoritmo = '''## O Algoritmo
+## Modelo do Algoritmo
 
 Como base de um sistema com interfaceamento com o usuário, o algoritmo a ser utilizado deve requisitar os valores de cada um dos parâmetros de entrada.
 O modelo do sistema estabelece que os parâmetros de entrada devem ser:
@@ -56,4 +56,15 @@ O modelo do sistema estabelece que os parâmetros de entrada devem ser:
 
 Com os valores dos parâmetros anteriores informados, o tempo de duração deve ser calculado e retornado ao usuário.
 
-Como adicional, o usuário deve poder reexecutar o algoritmo o número de vezes desejado em sequência, informando quando não é mais necessário.'''
+Como adicional, o usuário deve poder reexecutar o algoritmo o número de vezes desejado em sequência, informando quando não é mais necessário.
+
+
+## Colete os dados em campo
+
+Na prática, os valores das grandezas da fórmula anterior podem ser coletados da seguinte maneira:
+ - $d_{c_1}$ é o comprimento do seu veículo em **metros**.
+ - $d_{c_2}$ é o comprimento do veículo a ser ultrapassado em **metros**. Observe:
+  - Veículos longos apresentam o seu comprimento na traseira
+  - A largura de um veículo varia em média entre 4 e 6,5 metros
+ - $d_{c_1c_2}$ é a distância entre o seu veículo e o veículo a ser ultrapassado logo antes de começar a ultrapassagem em **metros**. Observe:
+'''
