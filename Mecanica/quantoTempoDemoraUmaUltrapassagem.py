@@ -29,7 +29,7 @@ conclusaoDaIntroducaoDoArtigo = '''Vamos desconsiderar o tempo que o carro leva 
 
 Assumindo então que os veículos movem-se em linha reta e com velocidade constante, da análise do movimento retilíneo uniforme temos a seguinte fórmula
 
-$v = \frac{d}{t}$
+$v = \\frac{d}{t}$
 
 na qual $v$, $d$ e $t$ representam a velocidade, a distância e o tempo, respectivamente.
 Aqui, vamos considerar somente a velocidade escalar.
