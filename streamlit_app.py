@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title='Ciência Aplicada com Python na Web', page_icon = [':snake:', ':snake:'])
+st.set_page_config(page_title='Ciência Aplicada com Python na Web', page_icon = ':snake::snake:'])
 
 topico = st.sidebar.selectbox(
     'Escolha um tópico:',
