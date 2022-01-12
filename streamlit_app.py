@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 
 st.set_page_config(page_title='Ciência Aplicada com Python na Web', page_icon = 'random')
 
@@ -64,7 +63,9 @@ elif topico == 'Mecânica':
     
     if topicoDeMecanica == 'Quanto tempo demora uma ultrapassagem?':
         from Mecanica.quantoTempoDemoraUmaUltrapassagem import introducaoDoArtigo as introducaoDoArtigo
-        from Mecanica.quantoTempoDemoraUmaUltrapassagem import imagemDeSituacaoInicial, continuacaoDaIntroducaoDoArtigo, conclusaoDaIntroducaoDoArtigo  
+        from Mecanica.quantoTempoDemoraUmaUltrapassagem import continuacaoDaIntroducaoDoArtigo, conclusaoDaIntroducaoDoArtigo  
+        
+        imagemDeSituacaoInicial = 'quanto_tempo_demora_uma_ultrapassagem_situacao_inicial.jpg'
         
         introducaoDoArtigo
         st.image(imagemDeSituacaoInicial)
