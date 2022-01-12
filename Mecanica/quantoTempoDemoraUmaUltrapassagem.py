@@ -108,7 +108,7 @@ Como exemplo, suponha os seguintes valores para as grandezas:
  - $d_{c_1} = 4$ m
  - $d_{c_2} = 20$ m
  - $d_{c_1c_2} = 100/3$ m
- - $v_i$ = 60$ km/h.
+ - $v_i = 60$ km/h.
 
 Realizando uma ultrapassagem com velocidade igual a $70$ km/h, teremos $\\Delta v = 10$ km/h.
 Logo, o tempo de ultrapassagem será de 
