@@ -100,7 +100,7 @@ while i == 0:
  if i == 0:
   clear()'''
 
-conclusaoDoAlgoritmo = '''**Execute o arquivo principal e voilá!**'''
+conclusaoDoAlgoritmo = '''**Execute o código e voilá!**'''
 
 conclusaoDoArtigo = '''## Conclusão
 
