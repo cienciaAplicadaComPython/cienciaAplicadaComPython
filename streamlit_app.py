@@ -15,7 +15,7 @@ if topico == 'Introdução':
     """
     # Introdução
          
-    Está aplicação WEB contém uma coleção de artigos com respostas baseadas na ciência à perguntas feitas livremente.
+    Esta aplicação WEB contém uma coleção de artigos com respostas baseadas na ciência à perguntas feitas livremente.
     Muitas delas são inspiradas em leituras, filmes, séries, documentários e viagens.
     
     Cada artigo contém um algoritmo escrito com base na linguagem de programação *Python* que permite a utilização da solução proposta de maneira prática.
